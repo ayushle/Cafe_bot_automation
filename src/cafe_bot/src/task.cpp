@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/int8.hpp"
+#include "std_msgs/msg/bool.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include <tf2_ros/transform_listener.h>
 #include <tf2_ros/buffer.h>
@@ -8,7 +9,8 @@
 #include <ament_index_cpp/get_package_share_directory.hpp>
 #include <cmath>
 #include <iostream>
-
+int time_passed=0;
+int timeout=5;
 class Navigator : public rclcpp::Node
 {
 public:
@@ -20,6 +22,9 @@ public:
     goal_pos_pub_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("/goal_pose", 10);
 
     timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&Navigator::check_goal_reached, this));
+    done_pub_ = this->create_subscription<std_msgs::msg::Bool>(
+      "/done", 10, std::bind(&Navigator::nav_next, this, std::placeholders::_1));
+
   }
 
 private:
@@ -28,6 +33,9 @@ private:
   int home_flag=0;
   int kitchen_flag=0;
   int table_flag=0;
+  int done_flag=0;
+
+
   void nav_kitchen()
   {
     std::string yaml_path = "/home/ayush/Documents/cafeBot_ws/src/cafe_bot/config/location.yaml";
@@ -55,6 +63,8 @@ private:
   }
   void nav_table(const std_msgs::msg::Int8::SharedPtr msg)
   {
+    done_flag=0;
+    time_passed=0;
     int table_no = msg->data;
     std::string yaml_path = "/home/ayush/Documents/cafeBot_ws/src/cafe_bot/config/location.yaml";
     YAML::Node config = YAML::LoadFile(yaml_path);
@@ -115,16 +125,17 @@ private:
   {
     if (kitchen_flag==0){
       nav_kitchen();
-      }else if (table_flag==0){
+      }else if (table_flag==0 && done_flag==1){
         nav_table(msg);
-      }else if(home_flag==0){
+      }else if(home_flag==0 && done_flag==1){
         nav_home();
       }
   }
 
   void check_goal_reached()
   {
-    if (!goal_active_) return;
+    RCLCPP_INFO(this->get_logger(), "time=%d", time_passed);
+    if (time_passed<timeout){
 
     try
     {
@@ -135,6 +146,7 @@ private:
 
       if (distance < 0.35)
       {
+        time_passed+=1;
         RCLCPP_INFO(this->get_logger(), "Goal Reached! Robot is within %.2f meters of the goal.", distance);
         if (kitchen_flag==0){
           kitchen_flag=1;
@@ -153,12 +165,23 @@ private:
     catch (const tf2::TransformException &ex)
     {
       RCLCPP_WARN(this->get_logger(), "Could not transform: %s", ex.what());
+    }}else{
+      nav_home();
     }
   }
 
+  void nav_next(const std_msgs::msg::Bool::SharedPtr msg)
+  {
+    if(msg->data==true)  {
+      done_flag=1;
+    }
+  }
+  
   rclcpp::Subscription<std_msgs::msg::Int8>::SharedPtr table_pos_sub_;
   rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr goal_pos_pub_;
   rclcpp::TimerBase::SharedPtr timer_;
+  rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr done_pub_;
+  
 
   tf2_ros::Buffer tf_buffer_;
   tf2_ros::TransformListener tf_listener_;
