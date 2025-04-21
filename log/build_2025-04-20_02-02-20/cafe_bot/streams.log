@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+[0.065s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.197s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.241s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.243s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.251s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.306s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.308s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.385s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.428s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.539s] -- Configuring done
+[0.559s] -- Generating done
+[0.564s] -- Build files have been written to: /home/ayush/Documents/cafeBot_ws/build/cafe_bot
+[0.584s] [35m[1mConsolidate compiler generated dependencies of target task1[0m
+[0.585s] [35m[1mConsolidate compiler generated dependencies of target order[0m
+[0.591s] [ 16%] [32mBuilding CXX object CMakeFiles/task2.dir/src/task2.cpp.o[0m
+[0.624s] [ 50%] Built target order
+[0.627s] [ 83%] Built target task1
+[0.632s] [100%] [32m[1mLinking CXX executable task2[0m
+[0.734s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.734s] (.text+0x1b): undefined reference to `main'
+[0.736s] collect2: error: ld returned 1 exit status
+[0.737s] gmake[2]: *** [CMakeFiles/task2.dir/build.make:200: task2] Error 1
+[0.737s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/task2.dir/all] Error 2
+[0.738s] gmake: *** [Makefile:146: all] Error 2
+[0.740s] Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12

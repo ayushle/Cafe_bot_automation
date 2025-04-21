@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000236] (cafe_bot) JobQueued: {'identifier': 'cafe_bot', 'dependencies': OrderedDict()}
+[0.000427] (cafe_bot) JobStarted: {'identifier': 'cafe_bot'}
+[0.009136] (cafe_bot) JobProgress: {'identifier': 'cafe_bot', 'progress': 'cmake'}
+[0.009848] (cafe_bot) JobProgress: {'identifier': 'cafe_bot', 'progress': 'build'}
+[0.010331] (cafe_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot', '--', '-j12', '-l12'], 'cwd': '/home/ayush/Documents/cafeBot_ws/build/cafe_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ayush'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ayush'), ('OLDPWD', '/home/ayush'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2147'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayush'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ayush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayush:@/tmp/.ICE-unix/2119,unix/ayush:/tmp/.ICE-unix/2119'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2c92e6b8_afc0_40d2_92ba_13d0fd6b8b93'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '158'), ('AMENT_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble')]), 'shell': False}
+[0.104689] (cafe_bot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target task3\x1b[0m\n'}
+[0.104958] (-) TimerEvent: {}
+[0.113797] (cafe_bot) StdoutLine: {'line': b'[ 25%] Built target task2\n'}
+[0.119212] (cafe_bot) StdoutLine: {'line': b'[ 75%] Built target order\n'}
+[0.120195] (cafe_bot) StdoutLine: {'line': b'[ 75%] Built target task1\n'}
+[0.133843] (cafe_bot) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/task3.dir/src/task3.cpp.o\x1b[0m\n'}
+[0.205089] (-) TimerEvent: {}
+[0.305428] (-) TimerEvent: {}
+[0.405780] (-) TimerEvent: {}
+[0.506114] (-) TimerEvent: {}
+[0.606469] (-) TimerEvent: {}
+[0.706774] (-) TimerEvent: {}
+[0.807119] (-) TimerEvent: {}
+[0.907404] (-) TimerEvent: {}
+[1.007694] (-) TimerEvent: {}
+[1.107987] (-) TimerEvent: {}
+[1.208326] (-) TimerEvent: {}
+[1.308609] (-) TimerEvent: {}
+[1.408910] (-) TimerEvent: {}
+[1.509222] (-) TimerEvent: {}
+[1.609548] (-) TimerEvent: {}
+[1.709847] (-) TimerEvent: {}
+[1.810182] (-) TimerEvent: {}
+[1.910513] (-) TimerEvent: {}
+[2.010812] (-) TimerEvent: {}
+[2.111077] (-) TimerEvent: {}
+[2.211381] (-) TimerEvent: {}
+[2.311647] (-) TimerEvent: {}
+[2.340118] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:196:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.340407] (cafe_bot) StderrLine: {'line': b'  196 |     }\n'}
+[2.340512] (cafe_bot) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.340575] (cafe_bot) StderrLine: {'line': b'      |      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.340634] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KNavigator::Navigator()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.340680] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:17:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KNavigator\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Ktf_buffer_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.340723] (cafe_bot) StderrLine: {'line': b'   17 |   Navigator() : Node("goal_pose_publisher"), \x1b[01;31m\x1b[Ktf_buffer_\x1b[m\x1b[K(this->get_clock()), tf_listener_(tf_buffer_)\n'}
+[2.340765] (cafe_bot) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.340806] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:17:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KNavigator\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Ktf_listener_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.340859] (cafe_bot) StderrLine: {'line': b'   17 |   Navigator() : Node("goal_pose_publisher"), tf_buffer_(this->get_clock()), \x1b[01;31m\x1b[Ktf_listener_\x1b[m\x1b[K(tf_buffer_)\n'}
+[2.340910] (cafe_bot) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.346051] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:17:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_buffer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.346136] (cafe_bot) StderrLine: {'line': b'   17 |   Navigator() : Node("goal_pose_publisher"), tf_buffer_(this->get_clock()), tf_listener_(\x1b[01;31m\x1b[Ktf_buffer_\x1b[m\x1b[K)\n'}
+[2.346176] (cafe_bot) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.352473] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:19:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktable_pos_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.352596] (cafe_bot) StderrLine: {'line': b'   19 |     \x1b[01;31m\x1b[Ktable_pos_sub_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Int8>(\n'}
+[2.352638] (cafe_bot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.396117] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgoal_pose_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.396295] (cafe_bot) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::PoseStamped>("/goal_pose", 10);\n'}
+[2.396341] (cafe_bot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.396390] (cafe_bot) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kgoal_pose_\x1b[m\x1b[K\n'}
+[2.402790] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:24:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.402923] (cafe_bot) StderrLine: {'line': b'   24 |     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(std::chrono::seconds(1), std::bind(&Navigator::check_goal_reached, this));\n'}
+[2.402965] (cafe_bot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.403005] (cafe_bot) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[2.411751] (-) TimerEvent: {}
+[2.415901] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdone_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.416061] (cafe_bot) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[Kdone_pub_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Bool>(\n'}
+[2.416104] (cafe_bot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.416144] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:26:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_next\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KNavigator\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.416186] (cafe_bot) StderrLine: {'line': b'   26 |       "/done", 10, std::bind(&Navigator::\x1b[01;31m\x1b[Knav_next\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[2.416235] (cafe_bot) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.421990] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Navigator::nav_kitchen()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.422129] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:65:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgoal_pose_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.422174] (cafe_bot) StderrLine: {'line': b'   65 |     \x1b[01;31m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K->publish(goal_msg);\n'}
+[2.422214] (cafe_bot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.422256] (cafe_bot) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kgoal_pose_\x1b[m\x1b[K\n'}
+[2.430621] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Navigator::nav_table(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.430763] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:115:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgoal_pose_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.430806] (cafe_bot) StderrLine: {'line': b'  115 |     \x1b[01;31m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K->publish(goal_msg);\n'}
+[2.430846] (cafe_bot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.430885] (cafe_bot) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kgoal_pose_\x1b[m\x1b[K\n'}
+[2.436451] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Navigator::nav_home()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.436588] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:141:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgoal_pose_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.436631] (cafe_bot) StderrLine: {'line': b'  141 |     \x1b[01;31m\x1b[Kgoal_pos_pub_\x1b[m\x1b[K->publish(goal_msg);\n'}
+[2.436671] (cafe_bot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.436709] (cafe_bot) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kgoal_pose_\x1b[m\x1b[K\n'}
+[2.442530] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Navigator::check_goal_reached()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.442643] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:164:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_buffer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.442688] (cafe_bot) StderrLine: {'line': b'  164 |       geometry_msgs::msg::TransformStamped transform = \x1b[01;31m\x1b[Ktf_buffer_\x1b[m\x1b[K.lookupTransform("map", "base_link", tf2::TimePointZero);\n'}
+[2.442747] (cafe_bot) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.449670] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid nav_next(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.449858] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:202:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdone_flag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.449912] (cafe_bot) StderrLine: {'line': b'  202 |       \x1b[01;31m\x1b[Kdone_flag\x1b[m\x1b[K=1;\n'}
+[2.449955] (cafe_bot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.484146] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.484394] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:212:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.484447] (cafe_bot) StderrLine: {'line': b'  212 |   tf2_ros::Buffer \x1b[01;31m\x1b[Ktf_buffer_\x1b[m\x1b[K;\n'}
+[2.484489] (cafe_bot) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.484529] (cafe_bot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:6\x1b[m\x1b[K:\n'}
+[2.484570] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.484612] (cafe_bot) StderrLine: {'line': b'   73 |   TF2_ROS_PUBLIC \x1b[01;36m\x1b[KBuffer\x1b[m\x1b[K(\n'}
+[2.484651] (cafe_bot) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.492392] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[2.492610] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:213:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformListener::TransformListener()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.492693] (cafe_bot) StderrLine: {'line': b'  213 |   tf2_ros::TransformListener \x1b[01;31m\x1b[Ktf_listener_\x1b[m\x1b[K;\n'}
+[2.492770] (cafe_bot) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.493615] (cafe_bot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:5\x1b[m\x1b[K:\n'}
+[2.493729] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, NodeT&&, bool, const rclcpp::QoS&, const rclcpp::QoS&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.493777] (cafe_bot) StderrLine: {'line': b'   90 |   \x1b[01;36m\x1b[KTransformListener\x1b[m\x1b[K(\n'}
+[2.493818] (cafe_bot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.493857] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.493902] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:213:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 0 provided\n'}
+[2.493942] (cafe_bot) StderrLine: {'line': b'  213 |   tf2_ros::TransformListener \x1b[01;36m\x1b[Ktf_listener_\x1b[m\x1b[K;\n'}
+[2.493983] (cafe_bot) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.494021] (cafe_bot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:5\x1b[m\x1b[K:\n'}
+[2.494061] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.494101] (cafe_bot) StderrLine: {'line': b'   87 |   explicit \x1b[01;36m\x1b[KTransformListener\x1b[m\x1b[K(tf2::BufferCore & buffer, bool spin_thread = true);\n'}
+[2.494140] (cafe_bot) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.494178] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[2.494216] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:214:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.494255] (cafe_bot) StderrLine: {'line': b'  214 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.494293] (cafe_bot) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.511866] (-) TimerEvent: {}
+[2.612152] (-) TimerEvent: {}
+[2.712417] (-) TimerEvent: {}
+[2.812686] (-) TimerEvent: {}
+[2.912985] (-) TimerEvent: {}
+[3.013264] (-) TimerEvent: {}
+[3.113526] (-) TimerEvent: {}
+[3.213814] (-) TimerEvent: {}
+[3.314131] (-) TimerEvent: {}
+[3.414493] (-) TimerEvent: {}
+[3.514849] (-) TimerEvent: {}
+[3.615226] (-) TimerEvent: {}
+[3.715565] (-) TimerEvent: {}
+[3.815842] (-) TimerEvent: {}
+[3.916138] (-) TimerEvent: {}
+[4.016433] (-) TimerEvent: {}
+[4.116717] (-) TimerEvent: {}
+[4.217040] (-) TimerEvent: {}
+[4.317319] (-) TimerEvent: {}
+[4.380546] (cafe_bot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/task3.dir/build.make:76: CMakeFiles/task3.dir/src/task3.cpp.o] Error 1\n'}
+[4.380784] (cafe_bot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/task3.dir/all] Error 2\n'}
+[4.380854] (cafe_bot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.382468] (cafe_bot) CommandEnded: {'returncode': 2}
+[4.390652] (cafe_bot) JobEnded: {'identifier': 'cafe_bot', 'rc': 2}
+[4.401008] (-) EventReactorShutdown: {}

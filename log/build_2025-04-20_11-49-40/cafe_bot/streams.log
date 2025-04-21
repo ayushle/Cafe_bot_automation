@@ -1,0 +1,13 @@
+[0.014s] Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target task3[0m
+[0.061s] [ 50%] Built target task2
+[0.061s] [ 62%] Built target order
+[0.061s] [ 75%] Built target task1
+[0.068s] [ 87%] [32mBuilding CXX object CMakeFiles/task3.dir/src/task3.cpp.o[0m
+[2.376s] [01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:261:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pose_kit[m[K’ does not name a type
+[2.376s]   261 | [01;31m[Kgoal_pose_kit[m[K
+[2.376s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[5.095s] gmake[2]: *** [CMakeFiles/task3.dir/build.make:76: CMakeFiles/task3.dir/src/task3.cpp.o] Error 1
+[5.095s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/task3.dir/all] Error 2
+[5.095s] gmake: *** [Makefile:146: all] Error 2
+[5.097s] Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12

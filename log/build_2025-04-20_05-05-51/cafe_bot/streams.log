@@ -1,0 +1,17 @@
+[0.010s] Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target task3[0m
+[0.061s] [ 25%] Built target order
+[0.063s] [ 75%] Built target task1
+[0.063s] [ 75%] Built target task2
+[0.069s] [ 87%] [32mBuilding CXX object CMakeFiles/task3.dir/src/task3.cpp.o[0m
+[2.287s] [01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:[m[K In member function ‘[01m[Kvoid Navigator::check_goal_reached()[m[K’:
+[2.288s] [01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:174:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.288s]   174 |         nav_kitchen();kit=1[01;31m[K}[m[K
+[2.288s]       |                            [01;31m[K^[m[K
+[2.288s] [01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:175:14:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[2.288s]   175 |       if ([01;35m[Kkit=1[m[K) {
+[2.288s]       |           [01;35m[K~~~^~[m[K
+[5.036s] gmake[2]: *** [CMakeFiles/task3.dir/build.make:76: CMakeFiles/task3.dir/src/task3.cpp.o] Error 1
+[5.036s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/task3.dir/all] Error 2
+[5.036s] gmake: *** [Makefile:146: all] Error 2
+[5.042s] Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12

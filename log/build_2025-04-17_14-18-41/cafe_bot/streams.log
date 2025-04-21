@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+[0.035s] Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+[0.043s] Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ayush/Documents/cafeBot_ws/build/cafe_bot
+[0.049s] -- Install configuration: ""
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/config
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description/gazebo_control.xacro
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description/inertial_macros.xacro
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description/sensor.xacro
+[0.049s] -- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description/bot_structure.urdf.xacro
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/launch
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/launch/sim_launch.py
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/world
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/world/cafe.world
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/ament_index/resource_index/package_run_dependencies/cafe_bot
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/ament_index/resource_index/parent_prefix_path/cafe_bot
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/environment/ament_prefix_path.sh
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/environment/ament_prefix_path.dsv
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/environment/path.sh
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/environment/path.dsv
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/local_setup.bash
+[0.049s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/local_setup.sh
+[0.050s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/local_setup.zsh
+[0.050s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/local_setup.dsv
+[0.050s] -- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/package.dsv
+[0.050s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/ament_index/resource_index/packages/cafe_bot
+[0.050s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/cmake/cafe_botConfig.cmake
+[0.050s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/cmake/cafe_botConfig-version.cmake
+[0.050s] -- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/package.xml
+[0.051s] Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ayush/Documents/cafeBot_ws/build/cafe_bot

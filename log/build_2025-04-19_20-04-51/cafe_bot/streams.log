@@ -1,0 +1,13 @@
+[0.007s] Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target order[0m
+[0.044s] [ 25%] [32mBuilding CXX object CMakeFiles/task1.dir/src/task1.cpp.o[0m
+[0.050s] [01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task1.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.050s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.050s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.050s] compilation terminated.
+[0.050s] gmake[2]: *** [CMakeFiles/task1.dir/build.make:76: CMakeFiles/task1.dir/src/task1.cpp.o] Error 1
+[0.050s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/task1.dir/all] Error 2
+[0.050s] gmake[1]: *** Waiting for unfinished jobs....
+[0.054s] [ 75%] Built target order
+[0.055s] gmake: *** [Makefile:146: all] Error 2
+[0.057s] Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12

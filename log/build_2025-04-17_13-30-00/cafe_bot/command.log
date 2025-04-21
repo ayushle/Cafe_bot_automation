@@ -1,0 +1,6 @@
+Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ayush/Documents/cafeBot_ws/src/cafe_bot -DCMAKE_INSTALL_PREFIX=/home/ayush/Documents/cafeBot_ws/install/cafe_bot
+Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ayush/Documents/cafeBot_ws/src/cafe_bot -DCMAKE_INSTALL_PREFIX=/home/ayush/Documents/cafeBot_ws/install/cafe_bot
+Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ayush/Documents/cafeBot_ws/build/cafe_bot
+Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ayush/Documents/cafeBot_ws/build/cafe_bot

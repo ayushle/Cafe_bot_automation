@@ -1,0 +1,26 @@
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task2.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kint time[m[K’ redeclared as different kind of entity
+   12 | int [01;31m[Ktime[m[K=0;
+      |     [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/pthread.h:23[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:35[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:148[m[K,
+                 from [01m[K/usr/include/c++/11/ext/atomicity.h:35[m[K,
+                 from [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:61[m[K,
+                 from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task2.cpp:1[m[K:
+[01m[K/usr/include/time.h:76:15:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Ktime_t time(time_t*)[m[K’
+   76 | extern time_t [01;36m[Ktime[m[K (time_t *__timer) __THROW;
+      |               [01;36m[K^~~~[m[K
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task2.cpp:[m[K In member function ‘[01m[Kvoid Navigator::check_goal_reached()[m[K’:
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task2.cpp:136:13:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  136 |     if ([01;31m[Ktime<timeout[m[K){
+      |         [01;31m[K~~~~^~~~~~~~[m[K
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task2.cpp:148:13:[m[K [01;35m[Kwarning: [m[Kpointer to a function used in arithmetic [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-arith-Wpointer-arith]8;;[m[K]
+  148 |         [01;35m[Ktime+=1[m[K;
+      |         [01;35m[K~~~~^~~[m[K
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task2.cpp:148:13:[m[K [01;31m[Kerror: [m[Kassignment of read-only location ‘[01m[Ktime[m[K’
+gmake[2]: *** [CMakeFiles/task2.dir/build.make:76: CMakeFiles/task2.dir/src/task2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/task2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

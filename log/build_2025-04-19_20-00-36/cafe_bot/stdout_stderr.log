@@ -1,0 +1,12 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/task1.dir/src/task1.cpp.o[0m
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task1.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/task1.dir/build.make:76: CMakeFiles/task1.dir/src/task1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/task1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 50%] [32mBuilding CXX object CMakeFiles/order.dir/src/order.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable order[0m
+[ 75%] Built target order
+gmake: *** [Makefile:146: all] Error 2

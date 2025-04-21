@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target task3[0m
+[0.063s] [ 50%] Built target task1
+[0.063s] [ 50%] Built target order
+[0.065s] [ 75%] Built target task2
+[0.070s] [ 87%] [32mBuilding CXX object CMakeFiles/task3.dir/src/task3.cpp.o[0m
+[0.389s] gmake[2]: *** [CMakeFiles/task3.dir/build.make:76: CMakeFiles/task3.dir/src/task3.cpp.o] Interrupt
+[0.389s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/task3.dir/all] Interrupt
+[0.389s] gmake: *** [Makefile:146: all] Interrupt
+[0.393s] Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12

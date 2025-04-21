@@ -1,0 +1,16 @@
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task1.cpp:[m[K In member function ‘[01m[Kvoid Navigator::corr_callback(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task1.cpp:77:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat theta[m[K’
+   77 |     float [01;31m[Ktheta[m[K = coords[2];
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task1.cpp:54:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat theta[m[K’ previously declared here
+   54 |     float [01;36m[Ktheta[m[K = coords[2];
+      |           [01;36m[K^~~~~[m[K
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task1.cpp:93:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat theta[m[K’
+   93 |       float [01;31m[Ktheta[m[K = coords[2];
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task1.cpp:54:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat theta[m[K’ previously declared here
+   54 |     float [01;36m[Ktheta[m[K = coords[2];
+      |           [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/task1.dir/build.make:76: CMakeFiles/task1.dir/src/task1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/task1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

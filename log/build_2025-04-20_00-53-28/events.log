@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (cafe_bot) JobQueued: {'identifier': 'cafe_bot', 'dependencies': OrderedDict()}
+[0.000427] (cafe_bot) JobStarted: {'identifier': 'cafe_bot'}
+[0.005913] (cafe_bot) JobProgress: {'identifier': 'cafe_bot', 'progress': 'cmake'}
+[0.012344] (cafe_bot) JobProgress: {'identifier': 'cafe_bot', 'progress': 'build'}
+[0.012883] (cafe_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot', '--', '-j12', '-l12'], 'cwd': '/home/ayush/Documents/cafeBot_ws/build/cafe_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ayush'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ayush'), ('OLDPWD', '/home/ayush'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2320'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayush'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ayush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayush:@/tmp/.ICE-unix/2058,unix/ayush:/tmp/.ICE-unix/2058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ecb15e2e_3a1a_4fe9_b1fa_ac4cc02ac9b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '158'), ('AMENT_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble')]), 'shell': False}
+[0.049023] (cafe_bot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target task1\x1b[0m\n'}
+[0.058666] (cafe_bot) StdoutLine: {'line': b'[ 50%] Built target order\n'}
+[0.066013] (cafe_bot) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/task1.dir/src/task1.cpp.o\x1b[0m\n'}
+[0.099842] (-) TimerEvent: {}
+[0.200143] (-) TimerEvent: {}
+[0.300480] (-) TimerEvent: {}
+[0.400821] (-) TimerEvent: {}
+[0.501158] (-) TimerEvent: {}
+[0.601464] (-) TimerEvent: {}
+[0.701801] (-) TimerEvent: {}
+[0.802104] (-) TimerEvent: {}
+[0.902410] (-) TimerEvent: {}
+[1.002700] (-) TimerEvent: {}
+[1.103046] (-) TimerEvent: {}
+[1.203341] (-) TimerEvent: {}
+[1.303740] (-) TimerEvent: {}
+[1.404090] (-) TimerEvent: {}
+[1.504403] (-) TimerEvent: {}
+[1.604692] (-) TimerEvent: {}
+[1.704984] (-) TimerEvent: {}
+[1.805277] (-) TimerEvent: {}
+[1.905576] (-) TimerEvent: {}
+[2.005882] (-) TimerEvent: {}
+[2.106197] (-) TimerEvent: {}
+[2.206557] (-) TimerEvent: {}
+[2.306900] (-) TimerEvent: {}
+[2.407201] (-) TimerEvent: {}
+[2.507527] (-) TimerEvent: {}
+[2.607856] (-) TimerEvent: {}
+[2.708209] (-) TimerEvent: {}
+[2.808535] (-) TimerEvent: {}
+[2.908875] (-) TimerEvent: {}
+[3.009247] (-) TimerEvent: {}
+[3.109583] (-) TimerEvent: {}
+[3.209915] (-) TimerEvent: {}
+[3.310251] (-) TimerEvent: {}
+[3.410581] (-) TimerEvent: {}
+[3.510914] (-) TimerEvent: {}
+[3.611266] (-) TimerEvent: {}
+[3.711595] (-) TimerEvent: {}
+[3.811924] (-) TimerEvent: {}
+[3.912279] (-) TimerEvent: {}
+[4.012605] (-) TimerEvent: {}
+[4.112934] (-) TimerEvent: {}
+[4.213213] (-) TimerEvent: {}
+[4.313560] (-) TimerEvent: {}
+[4.413903] (-) TimerEvent: {}
+[4.514193] (-) TimerEvent: {}
+[4.614525] (-) TimerEvent: {}
+[4.714863] (-) TimerEvent: {}
+[4.815139] (-) TimerEvent: {}
+[4.915465] (-) TimerEvent: {}
+[5.015801] (-) TimerEvent: {}
+[5.116166] (-) TimerEvent: {}
+[5.216443] (-) TimerEvent: {}
+[5.316765] (-) TimerEvent: {}
+[5.417050] (-) TimerEvent: {}
+[5.517327] (-) TimerEvent: {}
+[5.617657] (-) TimerEvent: {}
+[5.717921] (-) TimerEvent: {}
+[5.818184] (-) TimerEvent: {}
+[5.918438] (-) TimerEvent: {}
+[6.018708] (-) TimerEvent: {}
+[6.119052] (-) TimerEvent: {}
+[6.219321] (-) TimerEvent: {}
+[6.319583] (-) TimerEvent: {}
+[6.419858] (-) TimerEvent: {}
+[6.520144] (-) TimerEvent: {}
+[6.620434] (-) TimerEvent: {}
+[6.720732] (-) TimerEvent: {}
+[6.821041] (-) TimerEvent: {}
+[6.921321] (-) TimerEvent: {}
+[7.021584] (-) TimerEvent: {}
+[7.121912] (-) TimerEvent: {}
+[7.222187] (-) TimerEvent: {}
+[7.322453] (-) TimerEvent: {}
+[7.422722] (-) TimerEvent: {}
+[7.522992] (-) TimerEvent: {}
+[7.623313] (-) TimerEvent: {}
+[7.723581] (-) TimerEvent: {}
+[7.823909] (-) TimerEvent: {}
+[7.924172] (-) TimerEvent: {}
+[8.024489] (-) TimerEvent: {}
+[8.124837] (-) TimerEvent: {}
+[8.225180] (-) TimerEvent: {}
+[8.238418] (cafe_bot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable task1\x1b[0m\n'}
+[8.325285] (-) TimerEvent: {}
+[8.425601] (-) TimerEvent: {}
+[8.526053] (-) TimerEvent: {}
+[8.626355] (-) TimerEvent: {}
+[8.726646] (-) TimerEvent: {}
+[8.758218] (cafe_bot) StdoutLine: {'line': b'[100%] Built target task1\n'}
+[8.766591] (cafe_bot) CommandEnded: {'returncode': 0}
+[8.767501] (cafe_bot) JobProgress: {'identifier': 'cafe_bot', 'progress': 'install'}
+[8.774817] (cafe_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot'], 'cwd': '/home/ayush/Documents/cafeBot_ws/build/cafe_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ayush'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ayush'), ('OLDPWD', '/home/ayush'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2320'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayush'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ayush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayush:@/tmp/.ICE-unix/2058,unix/ayush:/tmp/.ICE-unix/2058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ecb15e2e_3a1a_4fe9_b1fa_ac4cc02ac9b2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '158'), ('AMENT_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble')]), 'shell': False}
+[8.781133] (cafe_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.781445] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/lib/cafe_bot/order\n'}
+[8.781839] (cafe_bot) StdoutLine: {'line': b'-- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/lib/cafe_bot/task1\n'}
+[8.786542] (cafe_bot) StdoutLine: {'line': b'-- Set runtime path of "/home/ayush/Documents/cafeBot_ws/install/cafe_bot/lib/cafe_bot/task1" to ""\n'}
+[8.786660] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/config\n'}
+[8.786725] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/config/nav2_params.yaml\n'}
+[8.786779] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/config/mapper_params_online_async.yaml\n'}
+[8.786820] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/config/location.yaml\n'}
+[8.786890] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/config/twist_mux.yaml\n'}
+[8.786944] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description\n'}
+[8.787089] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description/gazebo_control.xacro\n'}
+[8.787159] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description/inertial_macros.xacro\n'}
+[8.787200] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description/sensor.xacro\n'}
+[8.787241] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/description/bot_structure.urdf.xacro\n'}
+[8.787295] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/launch\n'}
+[8.787480] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/launch/sim_launch.py\n'}
+[8.787539] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/launch/cafeBot_ws.code-workspace\n'}
+[8.787580] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/world\n'}
+[8.787769] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/world/cafe.world\n'}
+[8.787822] (cafe_bot) StdoutLine: {'line': b'-- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/ament_index/resource_index/package_run_dependencies/cafe_bot\n'}
+[8.788516] (cafe_bot) StdoutLine: {'line': b'-- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/ament_index/resource_index/parent_prefix_path/cafe_bot\n'}
+[8.788920] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/environment/ament_prefix_path.sh\n'}
+[8.788982] (cafe_bot) StdoutLine: {'line': b'-- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/environment/ament_prefix_path.dsv\n'}
+[8.789110] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/environment/path.sh\n'}
+[8.789169] (cafe_bot) StdoutLine: {'line': b'-- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/environment/path.dsv\n'}
+[8.789316] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/local_setup.bash\n'}
+[8.789376] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/local_setup.sh\n'}
+[8.789427] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/local_setup.zsh\n'}
+[8.789467] (cafe_bot) StdoutLine: {'line': b'-- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/local_setup.dsv\n'}
+[8.789650] (cafe_bot) StdoutLine: {'line': b'-- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/package.dsv\n'}
+[8.789751] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/ament_index/resource_index/packages/cafe_bot\n'}
+[8.789837] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/cmake/cafe_botConfig.cmake\n'}
+[8.789880] (cafe_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/cmake/cafe_botConfig-version.cmake\n'}
+[8.789922] (cafe_bot) StdoutLine: {'line': b'-- Installing: /home/ayush/Documents/cafeBot_ws/install/cafe_bot/share/cafe_bot/package.xml\n'}
+[8.791225] (cafe_bot) CommandEnded: {'returncode': 0}
+[8.806396] (cafe_bot) JobEnded: {'identifier': 'cafe_bot', 'rc': 0}
+[8.806861] (-) EventReactorShutdown: {}

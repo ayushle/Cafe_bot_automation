@@ -1,0 +1,7 @@
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:[m[K In member function ‘[01m[Kvoid Navigator::check_goal_reached()[m[K’:
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:174:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  174 |         nav_kitchen();kit=1[01;31m[K}[m[K
+      |                            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/task3.dir/build.make:76: CMakeFiles/task3.dir/src/task3.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/task3.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

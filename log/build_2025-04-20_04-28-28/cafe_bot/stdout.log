@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target task3[0m
+[35m[1mConsolidate compiler generated dependencies of target task2[0m
+[ 50%] Built target order
+[ 50%] Built target task1
+[ 75%] [32mBuilding CXX object CMakeFiles/task3.dir/src/task3.cpp.o[0m
+[ 87%] Built target task2

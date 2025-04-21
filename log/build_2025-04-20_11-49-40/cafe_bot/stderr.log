@@ -1,0 +1,6 @@
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:261:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pose_kit[m[K’ does not name a type
+  261 | [01;31m[Kgoal_pose_kit[m[K
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/task3.dir/build.make:76: CMakeFiles/task3.dir/src/task3.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/task3.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

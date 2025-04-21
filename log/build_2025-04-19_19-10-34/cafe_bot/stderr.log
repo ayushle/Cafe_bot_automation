@@ -1,0 +1,7 @@
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/order.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcafe_bot/msgs/Order.hpp: No such file or directory
+    2 | #include [01;31m[K"cafe_bot/msgs/Order.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/order.dir/build.make:76: CMakeFiles/order.dir/src/order.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/order.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

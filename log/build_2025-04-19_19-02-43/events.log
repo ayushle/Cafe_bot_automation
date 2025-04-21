@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000320] (cafe_bot) JobQueued: {'identifier': 'cafe_bot', 'dependencies': OrderedDict()}
+[0.000441] (cafe_bot) JobStarted: {'identifier': 'cafe_bot'}
+[0.007478] (cafe_bot) JobProgress: {'identifier': 'cafe_bot', 'progress': 'cmake'}
+[0.008162] (cafe_bot) JobProgress: {'identifier': 'cafe_bot', 'progress': 'build'}
+[0.008681] (cafe_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot', '--', '-j12', '-l12'], 'cwd': '/home/ayush/Documents/cafeBot_ws/build/cafe_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ayush'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ayush'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2102'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cc66cf279231ed8ee757ec4268036734'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayush'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ayush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayush:@/tmp/.ICE-unix/2102,unix/ayush:/tmp/.ICE-unix/2102'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fa5e7c9_230b_4c2f_9da7_5e19b87f562e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.261'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '158'), ('AMENT_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cc66cf279231ed8ee757ec4268036734'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble')]), 'shell': False}
+[0.033746] (cafe_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099997] (-) TimerEvent: {}
+[0.146442] (cafe_bot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.186443] (cafe_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.189247] (cafe_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.196337] (cafe_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.200080] (-) TimerEvent: {}
+[0.209415] (cafe_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.228482] (cafe_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.261600] (cafe_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.263624] (cafe_bot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300198] (-) TimerEvent: {}
+[0.348987] (cafe_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.395517] (cafe_bot) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.400276] (-) TimerEvent: {}
+[0.500483] (-) TimerEvent: {}
+[0.590113] (cafe_bot) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600534] (-) TimerEvent: {}
+[0.700717] (-) TimerEvent: {}
+[0.800971] (-) TimerEvent: {}
+[0.845384] (cafe_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901079] (-) TimerEvent: {}
+[0.946483] (cafe_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.963674] (cafe_bot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.965785] (cafe_bot) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.985410] (cafe_bot) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.985591] (cafe_bot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.985662] (cafe_bot) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.985724] (cafe_bot) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.999438] (cafe_bot) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.001153] (-) TimerEvent: {}
+[1.040111] (cafe_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.076551] (cafe_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[1.092060] (cafe_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/ayush/Documents/cafeBot_ws/build/cafe_bot\n'}
+[1.101349] (-) TimerEvent: {}
+[1.113978] (cafe_bot) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.121158] (cafe_bot) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.121358] (cafe_bot) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/order.dir/src/order.cpp.o\x1b[0m\n'}
+[1.127651] (cafe_bot) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_cafe_bot\n'}
+[1.201438] (-) TimerEvent: {}
+[1.301738] (-) TimerEvent: {}
+[1.323682] (cafe_bot) StdoutLine: {'line': b'[  9%] Built target cafe_bot__cpp\n'}
+[1.331330] (cafe_bot) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.331498] (cafe_bot) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.331547] (cafe_bot) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.331591] (cafe_bot) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/cafe_bot__rosidl_generator_c.dir/rosidl_generator_c/cafe_bot/msg/detail/order__functions.c.o\x1b[0m\n'}
+[1.371440] (cafe_bot) StdoutLine: {'line': b'running egg_info\n'}
+[1.371907] (cafe_bot) StdoutLine: {'line': b'creating cafe_bot.egg-info\n'}
+[1.372121] (cafe_bot) StdoutLine: {'line': b'writing cafe_bot.egg-info/PKG-INFO\n'}
+[1.372259] (cafe_bot) StdoutLine: {'line': b'writing dependency_links to cafe_bot.egg-info/dependency_links.txt\n'}
+[1.372382] (cafe_bot) StdoutLine: {'line': b'writing top-level names to cafe_bot.egg-info/top_level.txt\n'}
+[1.372571] (cafe_bot) StdoutLine: {'line': b"writing manifest file 'cafe_bot.egg-info/SOURCES.txt'\n"}
+[1.379733] (cafe_bot) StdoutLine: {'line': b"reading manifest file 'cafe_bot.egg-info/SOURCES.txt'\n"}
+[1.380061] (cafe_bot) StdoutLine: {'line': b"writing manifest file 'cafe_bot.egg-info/SOURCES.txt'\n"}
+[1.401826] (-) TimerEvent: {}
+[1.405344] (cafe_bot) StdoutLine: {'line': b'[ 21%] Built target ament_cmake_python_build_cafe_bot_egg\n'}
+[1.410678] (cafe_bot) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libcafe_bot__rosidl_generator_c.so\x1b[0m\n'}
+[1.445876] (cafe_bot) StdoutLine: {'line': b'[ 24%] Built target cafe_bot__rosidl_generator_c\n'}
+[1.454598] (cafe_bot) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.454816] (cafe_bot) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.454901] (cafe_bot) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.500878] (cafe_bot) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/cafe_bot__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cafe_bot/msg/order__type_support.cpp.o\x1b[0m\n'}
+[1.501919] (-) TimerEvent: {}
+[1.502861] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/order.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcafe_bot/msgs/Order.hpp: No such file or directory\n'}
+[1.503053] (cafe_bot) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"cafe_bot/msgs/Order.hpp"\x1b[m\x1b[K\n'}
+[1.503134] (cafe_bot) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.503208] (cafe_bot) StderrLine: {'line': b'compilation terminated.\n'}
+[1.506495] (cafe_bot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/order.dir/build.make:76: CMakeFiles/order.dir/src/order.cpp.o] Error 1\n'}
+[1.506735] (cafe_bot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/order.dir/all] Error 2\n'}
+[1.506819] (cafe_bot) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.509571] (cafe_bot) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/cafe_bot__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cafe_bot/msg/detail/order__type_support.cpp.o\x1b[0m\n'}
+[1.527689] (cafe_bot) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/cafe_bot__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cafe_bot/msg/detail/dds_fastrtps/order__type_support.cpp.o\x1b[0m\n'}
+[1.602041] (-) TimerEvent: {}
+[1.619871] (cafe_bot) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/cafe_bot__rosidl_typesupport_c.dir/rosidl_typesupport_c/cafe_bot/msg/order__type_support.cpp.o\x1b[0m\n'}
+[1.645984] (cafe_bot) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcafe_bot__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.679907] (cafe_bot) StdoutLine: {'line': b'[ 48%] Built target cafe_bot__rosidl_typesupport_c\n'}
+[1.702182] (-) TimerEvent: {}
+[1.705076] (cafe_bot) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcafe_bot__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.731894] (cafe_bot) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/cafe_bot__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cafe_bot/msg/detail/order__type_support.c.o\x1b[0m\n'}
+[1.732113] (cafe_bot) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/cafe_bot__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cafe_bot/msg/detail/order__type_support_c.cpp.o\x1b[0m\n'}
+[1.750019] (cafe_bot) StdoutLine: {'line': b'[ 57%] Built target cafe_bot__rosidl_typesupport_cpp\n'}
+[1.758269] (cafe_bot) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libcafe_bot__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.783267] (cafe_bot) StdoutLine: {'line': b'[ 60%] Built target cafe_bot__rosidl_typesupport_introspection_c\n'}
+[1.788105] (cafe_bot) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libcafe_bot__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.802286] (-) TimerEvent: {}
+[1.812929] (cafe_bot) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libcafe_bot__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.837723] (cafe_bot) StdoutLine: {'line': b'[ 66%] Built target cafe_bot__rosidl_typesupport_introspection_cpp\n'}
+[1.870525] (cafe_bot) StdoutLine: {'line': b'[ 66%] Built target cafe_bot__rosidl_typesupport_fastrtps_cpp\n'}
+[1.902461] (-) TimerEvent: {}
+[1.958326] (cafe_bot) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcafe_bot__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.002553] (-) TimerEvent: {}
+[2.008850] (cafe_bot) StdoutLine: {'line': b'[ 69%] Built target cafe_bot__rosidl_typesupport_fastrtps_c\n'}
+[2.009682] (cafe_bot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.011220] (cafe_bot) CommandEnded: {'returncode': 2}
+[2.021618] (cafe_bot) JobEnded: {'identifier': 'cafe_bot', 'rc': 2}
+[2.032177] (-) EventReactorShutdown: {}

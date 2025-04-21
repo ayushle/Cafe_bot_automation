@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target task3[0m
+[ 50%] Built target task1
+[ 50%] Built target order
+[ 75%] Built target task2
+[ 87%] [32mBuilding CXX object CMakeFiles/task3.dir/src/task3.cpp.o[0m
+gmake[2]: *** [CMakeFiles/task3.dir/build.make:76: CMakeFiles/task3.dir/src/task3.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/task3.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

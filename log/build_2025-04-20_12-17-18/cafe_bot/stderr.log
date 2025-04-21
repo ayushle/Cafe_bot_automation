@@ -1,0 +1,4 @@
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task4.cpp:[m[K In member function ‘[01m[Kvoid Navigator::cancel_order(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task4.cpp:249:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  249 |     bool [01;35m[Kfg[m[K=msg->data;
+      |          [01;35m[K^~[m[K

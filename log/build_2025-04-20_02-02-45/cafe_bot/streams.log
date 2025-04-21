@@ -1,0 +1,12 @@
+[0.008s] Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target task2[0m
+[0.045s] [ 16%] [32m[1mLinking CXX executable task2[0m
+[0.048s] [ 50%] Built target task1
+[0.048s] [ 83%] Built target order
+[0.113s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.113s] (.text+0x1b): undefined reference to `main'
+[0.115s] collect2: error: ld returned 1 exit status
+[0.116s] gmake[2]: *** [CMakeFiles/task2.dir/build.make:200: task2] Error 1
+[0.117s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/task2.dir/all] Error 2
+[0.117s] gmake: *** [Makefile:146: all] Error 2
+[0.119s] Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12

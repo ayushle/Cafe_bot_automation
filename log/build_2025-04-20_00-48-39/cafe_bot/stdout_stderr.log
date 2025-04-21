@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target task1[0m
+[ 50%] Built target order
+[ 75%] [32mBuilding CXX object CMakeFiles/task1.dir/src/task1.cpp.o[0m
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task1.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Knav2_msgs/msg/behavior_tree_log.hpp: No such file or directory
+    3 | #include [01;31m[K"nav2_msgs/msg/behavior_tree_log.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/task1.dir/build.make:76: CMakeFiles/task1.dir/src/task1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/task1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

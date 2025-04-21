@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cafe_bot/msgs/Order.msg
+// generated code does not contain a copyright notice
+
+
+module cafe_bot {
+  module msg {
+    struct Order {
+      string table;
+
+      string item;
+    };
+  };
+};

@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (cafe_bot) JobQueued: {'identifier': 'cafe_bot', 'dependencies': OrderedDict()}
+[0.000479] (cafe_bot) JobStarted: {'identifier': 'cafe_bot'}
+[0.005747] (cafe_bot) JobProgress: {'identifier': 'cafe_bot', 'progress': 'cmake'}
+[0.012371] (cafe_bot) JobProgress: {'identifier': 'cafe_bot', 'progress': 'build'}
+[0.013018] (cafe_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot', '--', '-j12', '-l12'], 'cwd': '/home/ayush/Documents/cafeBot_ws/build/cafe_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ayush'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ayush'), ('OLDPWD', '/home/ayush'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2147'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayush'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/ayush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayush:@/tmp/.ICE-unix/2119,unix/ayush:/tmp/.ICE-unix/2119'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2c92e6b8_afc0_40d2_92ba_13d0fd6b8b93'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '158'), ('AMENT_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayush/Documents/cafeBot_ws/build/cafe_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayush/Documents/cafeBot_ws/install/cafe_bot:/opt/ros/humble')]), 'shell': False}
+[0.051495] (cafe_bot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target task3\x1b[0m\n'}
+[0.061673] (cafe_bot) StdoutLine: {'line': b'[ 50%] Built target task2\n'}
+[0.061916] (cafe_bot) StdoutLine: {'line': b'[ 62%] Built target order\n'}
+[0.061995] (cafe_bot) StdoutLine: {'line': b'[ 75%] Built target task1\n'}
+[0.068844] (cafe_bot) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/task3.dir/src/task3.cpp.o\x1b[0m\n'}
+[0.099782] (-) TimerEvent: {}
+[0.200121] (-) TimerEvent: {}
+[0.300494] (-) TimerEvent: {}
+[0.400887] (-) TimerEvent: {}
+[0.501426] (-) TimerEvent: {}
+[0.601787] (-) TimerEvent: {}
+[0.702066] (-) TimerEvent: {}
+[0.802363] (-) TimerEvent: {}
+[0.902670] (-) TimerEvent: {}
+[1.002963] (-) TimerEvent: {}
+[1.103250] (-) TimerEvent: {}
+[1.203496] (-) TimerEvent: {}
+[1.303820] (-) TimerEvent: {}
+[1.404106] (-) TimerEvent: {}
+[1.504397] (-) TimerEvent: {}
+[1.604663] (-) TimerEvent: {}
+[1.704938] (-) TimerEvent: {}
+[1.805291] (-) TimerEvent: {}
+[1.905627] (-) TimerEvent: {}
+[2.005949] (-) TimerEvent: {}
+[2.106336] (-) TimerEvent: {}
+[2.206649] (-) TimerEvent: {}
+[2.306966] (-) TimerEvent: {}
+[2.375986] (cafe_bot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task3.cpp:261:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_pose_kit\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.376232] (cafe_bot) StderrLine: {'line': b'  261 | \x1b[01;31m\x1b[Kgoal_pose_kit\x1b[m\x1b[K\n'}
+[2.376313] (cafe_bot) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.407081] (-) TimerEvent: {}
+[2.507397] (-) TimerEvent: {}
+[2.607759] (-) TimerEvent: {}
+[2.708077] (-) TimerEvent: {}
+[2.808373] (-) TimerEvent: {}
+[2.908653] (-) TimerEvent: {}
+[3.008973] (-) TimerEvent: {}
+[3.109283] (-) TimerEvent: {}
+[3.209634] (-) TimerEvent: {}
+[3.310032] (-) TimerEvent: {}
+[3.410466] (-) TimerEvent: {}
+[3.510844] (-) TimerEvent: {}
+[3.611199] (-) TimerEvent: {}
+[3.711497] (-) TimerEvent: {}
+[3.811800] (-) TimerEvent: {}
+[3.912124] (-) TimerEvent: {}
+[4.012433] (-) TimerEvent: {}
+[4.112741] (-) TimerEvent: {}
+[4.213042] (-) TimerEvent: {}
+[4.313331] (-) TimerEvent: {}
+[4.413625] (-) TimerEvent: {}
+[4.513903] (-) TimerEvent: {}
+[4.614212] (-) TimerEvent: {}
+[4.714497] (-) TimerEvent: {}
+[4.814798] (-) TimerEvent: {}
+[4.915087] (-) TimerEvent: {}
+[5.015360] (-) TimerEvent: {}
+[5.095673] (cafe_bot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/task3.dir/build.make:76: CMakeFiles/task3.dir/src/task3.cpp.o] Error 1\n'}
+[5.095857] (cafe_bot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/task3.dir/all] Error 2\n'}
+[5.095917] (cafe_bot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.097683] (cafe_bot) CommandEnded: {'returncode': 2}
+[5.105060] (cafe_bot) JobEnded: {'identifier': 'cafe_bot', 'rc': 2}
+[5.115518] (-) TimerEvent: {}
+[5.115834] (-) EventReactorShutdown: {}

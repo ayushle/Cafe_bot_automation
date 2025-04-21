@@ -1,0 +1,2 @@
+Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '2': /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12

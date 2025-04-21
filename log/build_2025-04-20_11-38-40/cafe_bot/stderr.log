@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/task3.dir/build.make:76: CMakeFiles/task3.dir/src/task3.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/task3.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

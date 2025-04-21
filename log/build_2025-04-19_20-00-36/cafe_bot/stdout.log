@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/task1.dir/src/task1.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/order.dir/src/order.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable order[0m
+[ 75%] Built target order

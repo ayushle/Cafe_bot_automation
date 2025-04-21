@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target task1[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/task2.dir/src/task2.cpp.o[0m
+[ 50%] Built target order
+[ 66%] [32mBuilding CXX object CMakeFiles/task1.dir/src/task1.cpp.o[0m
+[01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task2.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_listener.h: No such file or directory
+    5 | #include [01;31m[K<tf2_ros/transform_listener.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/task2.dir/build.make:76: CMakeFiles/task2.dir/src/task2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/task2.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable task1[0m
+[ 83%] Built target task1
+gmake: *** [Makefile:146: all] Error 2

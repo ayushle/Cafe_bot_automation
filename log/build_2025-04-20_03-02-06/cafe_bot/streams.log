@@ -1,0 +1,13 @@
+[0.018s] Invoking command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target task1[0m
+[0.170s] [ 66%] [32mBuilding CXX object CMakeFiles/task1.dir/src/task1.cpp.o[0m
+[0.170s] [ 83%] Built target task2
+[0.170s] [ 83%] Built target order
+[0.594s] [01m[K/home/ayush/Documents/cafeBot_ws/src/cafe_bot/src/task1.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+[0.594s]     6 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.hpp"[m[K
+[0.595s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.595s] compilation terminated.
+[0.599s] gmake[2]: *** [CMakeFiles/task1.dir/build.make:76: CMakeFiles/task1.dir/src/task1.cpp.o] Error 1
+[0.599s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/task1.dir/all] Error 2
+[0.600s] gmake: *** [Makefile:146: all] Error 2
+[0.604s] Invoked command in '/home/ayush/Documents/cafeBot_ws/build/cafe_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ayush/Documents/cafeBot_ws/build/cafe_bot -- -j12 -l12
