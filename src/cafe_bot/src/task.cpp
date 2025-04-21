@@ -29,15 +29,24 @@ public:
 
 private:
   geometry_msgs::msg::Pose goal_pose_;
+  geometry_msgs::msg::Pose goal_pose_kit;
+  geometry_msgs::msg::Pose goal_pose_tab;
+  geometry_msgs::msg::Pose goal_pose_hom;
+
   bool goal_active_ = false;
   int home_flag=0;
   int kitchen_flag=0;
   int table_flag=0;
   int done_flag=0;
+  int kit=0;
+  int tab=0;
+  int hom=0;
 
 
   void nav_kitchen()
   {
+    time_passed=0;
+    
     std::string yaml_path = "/home/ayush/Documents/cafeBot_ws/src/cafe_bot/config/location.yaml";
     YAML::Node config = YAML::LoadFile(yaml_path);
 
@@ -60,6 +69,7 @@ private:
     goal_pose_ = goal_msg.pose;
     goal_active_ = true;
     goal_pos_pub_->publish(goal_msg);
+    goal_pose_kit=goal_msg.pose;
   }
   void nav_table(const std_msgs::msg::Int8::SharedPtr msg)
   {
@@ -95,6 +105,7 @@ private:
     goal_pose_ = goal_msg.pose;
     goal_active_ = true;
     goal_pos_pub_->publish(goal_msg);
+    goal_pose_tab=goal_msg.pose;
   }
   void nav_home()
   {
@@ -120,6 +131,7 @@ private:
     goal_pose_ = goal_msg.pose;
     goal_active_ = true;
     goal_pos_pub_->publish(goal_msg);
+    goal_pose_hom=goal_msg.pose;
   }
   void corr_callback(const std_msgs::msg::Int8::SharedPtr msg)
   {
@@ -130,6 +142,52 @@ private:
       }else if(home_flag==0 && done_flag==1){
         nav_home();
       }
+
+      try
+      {
+        geometry_msgs::msg::TransformStamped transform = tf_buffer_.lookupTransform("map", "base_link", tf2::TimePointZero);
+        double dx = transform.transform.translation.x - goal_pose_kit.position.x;
+        double dy = transform.transform.translation.y - goal_pose_kit.position.y;
+        double distance_kit = std::sqrt(dx * dx + dy * dy);
+  
+        if (distance_kit < 0.35)
+        {
+          kit=1;
+          tab=0;
+          hom=0;
+        }
+      }catch (const tf2::TransformException &ex)
+      {}
+      try
+      {
+        geometry_msgs::msg::TransformStamped transform = tf_buffer_.lookupTransform("map", "base_link", tf2::TimePointZero);
+        double dx = transform.transform.translation.x - goal_pose_tab.position.x;
+        double dy = transform.transform.translation.y - goal_pose_tab.position.y;
+        double distance_kit = std::sqrt(dx * dx + dy * dy);
+  
+        if (distance_kit < 0.35)
+        {
+          kit=0;
+          tab=1;
+          hom=0;
+        }
+      }catch (const tf2::TransformException &ex)
+      {}
+      try
+      {
+        geometry_msgs::msg::TransformStamped transform = tf_buffer_.lookupTransform("map", "base_link", tf2::TimePointZero);
+        double dx = transform.transform.translation.x - goal_pose_hom.position.x;
+        double dy = transform.transform.translation.y - goal_pose_hom.position.y;
+        double distance_kit = std::sqrt(dx * dx + dy * dy);
+  
+        if (distance_kit < 0.35)
+        {
+          kit=0;
+          tab=0;
+          hom=1;
+        }
+      }catch (const tf2::TransformException &ex)
+      {}
   }
 
   void check_goal_reached()
@@ -166,9 +224,13 @@ private:
     {
       RCLCPP_WARN(this->get_logger(), "Could not transform: %s", ex.what());
     }}else{
+      if (tab==1){
+        nav_kitchen();}
+      else{
       nav_home();
+    }}
     }
-  }
+  
 
   void nav_next(const std_msgs::msg::Bool::SharedPtr msg)
   {
