@@ -1,6 +1,0 @@
-setup.py
-cafe_bot/__init__.py
-cafe_bot.egg-info/PKG-INFO
-cafe_bot.egg-info/SOURCES.txt
-cafe_bot.egg-info/dependency_links.txt
-cafe_bot.egg-info/top_level.txt
