@@ -24,7 +24,10 @@ public:
     timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&Navigator::check_goal_reached, this));
     done_pub_ = this->create_subscription<std_msgs::msg::Bool>(
       "/done", 10, std::bind(&Navigator::nav_next, this, std::placeholders::_1));
-
+      cancel_pub_ = this->create_subscription<std_msgs::msg::Bool>(
+        "/cancel_order", 10,
+        std::bind(&Navigator::cancel_order, this, std::placeholders::_1));
+    
   }
 
 private:
@@ -41,6 +44,8 @@ private:
   int kit=0;
   int tab=0;
   int hom=0;
+  bool cancel_flag=false;
+
 
 
   void nav_kitchen()
@@ -134,7 +139,7 @@ private:
     goal_pose_hom=goal_msg.pose;
   }
   void corr_callback(const std_msgs::msg::Int8::SharedPtr msg)
-  {
+  { 
     if (kitchen_flag==0){
       nav_kitchen();
       }else if (table_flag==0 && done_flag==1){
@@ -142,7 +147,7 @@ private:
       }else if(home_flag==0 && done_flag==1){
         nav_home();
       }
-
+    
       try
       {
         geometry_msgs::msg::TransformStamped transform = tf_buffer_.lookupTransform("map", "base_link", tf2::TimePointZero);
@@ -193,6 +198,7 @@ private:
   void check_goal_reached()
   {
     RCLCPP_INFO(this->get_logger(), "time=%d", time_passed);
+    
     if (time_passed<timeout){
 
     try
@@ -223,7 +229,7 @@ private:
     catch (const tf2::TransformException &ex)
     {
       RCLCPP_WARN(this->get_logger(), "Could not transform: %s", ex.what());
-    }}else{
+    }}else {
       if (tab==1){
         nav_kitchen();}
       else{
@@ -238,11 +244,25 @@ private:
       done_flag=1;
     }
   }
+  void cancel_order(const std_msgs::msg::Bool::SharedPtr msg)
+  {
+    cancel_flag=msg->data;
+    if(msg->data){
+    if(home_flag==0 && kitchen_flag==0 && table_flag==0){
+      nav_home();
+      
+    }else if (kit==1){
+        
+        nav_kitchen();
+
+    }}
+  }
   
   rclcpp::Subscription<std_msgs::msg::Int8>::SharedPtr table_pos_sub_;
   rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr goal_pos_pub_;
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr done_pub_;
+  rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr cancel_pub_;
   
 
   tf2_ros::Buffer tf_buffer_;
